@@ -1,0 +1,45 @@
+  @media (max-width: 1024px) {
+    
+.body {
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 767.98px;
+  padding: 0;
+  }
+
+header{
+  width: 375px;
+  height: 63px;
+}
+
+
+header img{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+  footer{
+    background-color: rgb(41, 41, 41);
+  }
+
+}
+
+
+  @media (max-width: 1024px) {
+    
+    }
+    @media (max-width: 1281px) {
+    
+    }
