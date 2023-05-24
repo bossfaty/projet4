@@ -26,6 +26,9 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @media (max-width: 424.928px) { 
+    padding: 50px 15px;
+    }
 }
 
 .reserve .rtop {
@@ -34,6 +37,10 @@ header {
   font-weight: 700;
   font-size: 40px;
   line-height: 47px;
+  
+  @media (max-width: 424.928px) { 
+  text-align:center;
+  }
 }
 
 .reserve .rmid {
@@ -43,6 +50,9 @@ header {
   font-size: 18px;
   line-height: 21px;
   padding: 25px 0;
+  @media (max-width: 424.928px) { 
+    text-align:center;
+    }
 }
 
 .reserve .rbot {
@@ -73,6 +83,9 @@ header {
   flex-direction: column;
   padding: 50px 180px;
   background: #FFFFFF;
+  @media (max-width: 424.928px) { 
+    padding: 5px 15px;
+    }
 }
 
 .fonction .ftitle{
@@ -89,6 +102,11 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  @media (max-width: 424.928px) { 
+    flex-direction: column;
+    align-items:start;
+    padding-left : 25px;
+    }
 }
 
 .fonction .fcontent .clone{
@@ -102,6 +120,8 @@ header {
   font-size: 16px;
   line-height: 19px;
   padding: 25px;
+  @media (max-width: 424.928px) { 
+    }
 }
 
 .fonction .fcontent .clone div{
@@ -142,13 +162,10 @@ header {
   background: #F7F7F7;
   display: flex;
   flex-direction: column;
-}
-
-.restau{
-  background: #F7F7F7;
-  display: flex;
-  flex-direction: column;
   padding: 50px 180px;
+  @media (max-width: 424.928px) { 
+    padding: 5px 10px;
+    }
 }
 
 .restau .rtitle{
@@ -168,16 +185,31 @@ header {
   justify-content: space-around;
   align-items: center;
   padding: 30px 0;
+  @media (max-width: 424.928px) { 
+    flex-direction: column;
+    }
 }
 
 .restau .quatre{
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
   border-radius: 25px;
+  @media (max-width: 424.928px) { 
+    width: 100%;
+    }
+}
+
+.restau .quatre a{
+text-decoration: none;
+color: black;
 }
 
 .topa , .topb , .topc , .topd{
   width: 500px;
   height: 200px;
+  @media (max-width: 424.928px) { 
+    width: auto;
+    }
+  
 }
 
 .topa {
@@ -272,8 +304,13 @@ footer{
   justify-content: flex-end;
   align-items: end;
   padding: 25px;
-
-
+  @media (max-width: 424.928px) { 
+    height:auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: flex-start;
+    }
 }
 
 footer span{
@@ -284,8 +321,10 @@ footer span{
   line-height: 26px;
   margin-left: 50px;
   margin-right: 50px;
-
-
+  @media (max-width: 424.928px) { 
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
 
 footer i{
@@ -304,6 +343,11 @@ footer div{
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
+  @media (max-width: 424.928px) { 
+    margin-left: 0;
+    }
+  
+
 }
 
 
