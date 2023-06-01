@@ -1,0 +1,637 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #F3F3F3;
+
+}
+header{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;    
+}
+header .logo {
+    width: 50%;      
+}
+
+.paris{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    background: #EAEAEA;
+}
+.reserve{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+
+}
+.reserve .rtop{
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+.reserve .rmid{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+}
+.reserve .rbot{
+    margin: 10px;
+    color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.reserve .rbot:hover{
+       
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
+  border-radius: 50px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+     
+  }
+.fonction{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+
+  }
+  
+  .fonction .ftitle{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 20px;
+  }
+  
+  .fonction .fcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  
+  .fonction .fcontent .clone{
+    display: flex;
+    flex-direction: row;
+    background: #F7F7F7;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 25px;
+    margin: 10px;
+  }
+  
+  .fonction .fcontent .clone div{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  
+  .fonction .fcontent .clone .num{
+    position: relative;
+    right: 38px;
+    bottom: 3px;
+    color: #FFFFFF;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background: #9356DC;
+  }
+  
+  .fonction .fcontent .clone i{
+    position: relative;
+    color: #7E7E7E;
+    right: 14px;
+    top: 2px;
+    padding-right:10px;
+  }
+  
+  .fonction .fcontent .clone .fa-store{
+    color: #9356DC;
+  }
+.restau{
+  background: #F7F7F7;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 10px;
+
+}
+.restau .rtitle{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  
+  }
+  .restau .all{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+  .restau .quatre{
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    margin-bottom: 10px;
+  }
+
+  .restau .quatre a{
+    text-decoration: none;
+    color: black;
+    }
+
+  .topa , .topb , .topc , .topd{
+    width: 300px;
+    height: 150px;
+    
+  }
+
+  .topa {
+  background-image: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px 25px 0 0;
+  display: flex;
+  justify-content: end;
+  align-items: baseline;
+  padding: 15px;
+}
+
+.topb {
+  background-image: url("../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px 25px 0 0;
+  display: flex;
+  justify-content: end;
+  align-items: baseline;
+  padding: 15px;
+}
+
+.topc {
+  background-image: url("../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px 25px 0 0;
+  display: flex;
+  justify-content: end;
+  align-items: baseline;
+  padding: 15px;
+}
+
+.topd {
+  background-image: url("../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px 25px 0 0;
+  display: flex;
+  justify-content: end;
+  align-items: baseline;
+  padding: 15px;
+}
+.nouveau {
+    background-color:#99E2D0;
+    color: #008766;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 16px;
+    text-align: center;
+    padding: 5px;
+  }
+  .bot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    padding: 0 10px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .bot i {  
+    transition: all 0 linear 0s;
+    background-color: #9356DC;
+    width: 100%;
+    height: 0;
+    left: 0;
+    bottom: 0;
+  
+  }
+  
+  .bot i:hover {
+    color :#9356DC;
+        }
+  .alltxt{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+  
+  }
+  footer{
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    background: #353535;
+    color: #FFFFFF;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 25px;
+
+  }
+  
+  footer span{
+    font-family: 'Shrikhand';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 70px;
+  }
+  
+  footer i{
+    padding-right: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  
+  footer div{
+    margin-left: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+    display:flex;
+    flex-direction:column;   
+    padding-bottom: 5px;
+ 
+  }
+  @media (min-width: 765px) {
+
+    body{
+      margin: 0;
+      padding: 0;
+      background: #F3F3F3;
+  
+  }
+  header{
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: white;    
+  }
+  header .logo {
+      width: 30%;      
+  }
+  
+  .reserve{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+  
+  }
+  .reserve .rtop{
+      
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 28px;
+      text-align: center;
+      padding-bottom: 10px;
+  }
+  .reserve .rmid{
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 21px;
+      text-align: center;
+      padding-bottom: 10px;
+  }
+  .reserve .rbot{
+      width: 30%;
+      margin: 10px;
+      color: #f7f7f7;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+      border-radius: 50px;
+      transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  
+  .fonction{
+      display: flex;
+      flex-direction: column;
+      background: #FFFFFF;
+  
+    }
+    
+    .fonction .ftitle{
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 28px;
+    }
+    
+    .fonction .fcontent{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;  
+    }
+    
+    .fonction .fcontent .clone{
+      display: flex;
+      flex-direction: row;
+      background: #F7F7F7;
+      border-radius: 20px;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      padding: 25px;
+      margin: 10px;
+    }
+    
+    .fonction .fcontent .clone div{
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 19px;
+    }
+    
+    .fonction .fcontent .clone .num{
+      position: relative;
+      right: 38px;
+      bottom: 3px;
+      color: #FFFFFF;
+      width: 25px;
+      height: 25px;
+      display: flex;
+      border-radius: 50%;
+      justify-content: center;
+      align-items: center;
+      background: #9356DC;
+    }
+    
+    .fonction .fcontent .clone i{
+      position: relative;
+      color: #7E7E7E;
+      right: 14px;
+      top: 2px;
+      padding-right:10px;
+    }
+    
+    .fonction .fcontent .clone .fa-store{
+      color: #9356DC;
+    }
+  .restau{
+    background: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+  
+  }
+  .restau .rtitle{
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 28px;
+      display: flex;
+      align-items: center;
+      padding: 10px;
+    
+    }
+    .restau .all{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+  
+    }
+    .restau .quatre{
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+      border-radius: 25px;
+      margin-bottom: 10px;
+    }
+  
+    .restau .quatre a{
+      text-decoration: none;
+      color: black;
+      }
+  
+    .topa , .topb , .topc , .topd{
+      width: 400px;
+      height: 200px;
+      
+    }
+  
+    .topa {
+    background-image: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px 25px 0 0;
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+    padding: 15px;
+  }
+  
+  .topb {
+    background-image: url("../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px 25px 0 0;
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+    padding: 15px;
+  }
+  
+  .topc {
+    background-image: url("../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px 25px 0 0;
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+    padding: 15px;
+  }
+  
+  .topd {
+    background-image: url("../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px 25px 0 0;
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+    padding: 15px;
+  }
+  .nouveau {
+      background-color:#99E2D0;
+      color: #008766;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 10px;
+      line-height: 16px;
+      text-align: center;
+      padding: 5px;
+    }
+    .bot {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      padding: 0 10px;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 20px;
+    }
+    .bot i {  
+      transition: all 0 linear 0s;
+      background-color: #9356DC;
+      width: 100%;
+      height: 0;
+      left: 0;
+      bottom: 0;
+    
+    }
+    
+    .bot i:hover {
+      color :#9356DC;
+          }
+    
+    .alltxt{
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21px;
+    
+    }
+    footer{
+      display: flex;
+      flex-direction: row;
+      background: #353535;
+      color: #FFFFFF;
+      justify-items: center;
+      align-items: center;
+      align-content: flex-end;
+      justify-content: flex-end;
+      
+    }
+    
+    footer span{
+      font-family: 'Shrikhand';
+      font-style: italic;
+      font-weight: 800;
+      font-size: 20px;
+      line-height: 20px;
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 10px;
+      padding-left: 50px;
+
+    }
+    
+    footer i{
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      display: flex;
+
+    }
+    
+    footer div{
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+
+    }
+
+  }
+
+  
